@@ -1,0 +1,12 @@
+Source: ros-kinetic-dynamic-robot-state-publisher
+Section: misc
+Priority: extra
+Maintainer: Martin Pecka <peckama2@fel.cvut.cz>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-dynamic-reconfigure, ros-kinetic-kdl-parser, ros-kinetic-robot-state-publisher, ros-kinetic-roscpp, ros-kinetic-sensor-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-dynamic-robot-state-publisher
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-dynamic-reconfigure, ros-kinetic-kdl-parser, ros-kinetic-robot-state-publisher, ros-kinetic-roscpp, ros-kinetic-sensor-msgs
+Description: Improved ROS robot_state_publisher which can update the robot model via dynamic_reconfigure.
