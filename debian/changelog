@@ -1,0 +1,9 @@
+ros-melodic-dynamic-robot-state-publisher (1.1.1-0bionic) bionic; urgency=high
+
+  * Allowed deleting static TF frames that disappeared.
+  * Fixed deadlock.
+  * Contributors: Martin Pecka
+
+ -- Martin Pecka <peckama2@fel.cvut.cz>  Mon, 04 Mar 2019 23:00:00 -0000
+
+
