@@ -1,0 +1,12 @@
+Source: ros-lunar-dynamic-robot-state-publisher
+Section: misc
+Priority: extra
+Maintainer: Martin Pecka <peckama2@fel.cvut.cz>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-catkin, ros-lunar-dynamic-reconfigure, ros-lunar-kdl-parser, ros-lunar-robot-state-publisher, ros-lunar-roscpp, ros-lunar-sensor-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-lunar-dynamic-robot-state-publisher
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-dynamic-reconfigure, ros-lunar-kdl-parser, ros-lunar-robot-state-publisher, ros-lunar-roscpp, ros-lunar-sensor-msgs
+Description: Improved ROS robot_state_publisher which can update the robot model via dynamic_reconfigure.
