@@ -1,0 +1,12 @@
+Source: ros-noetic-dynamic-robot-state-publisher
+Section: misc
+Priority: optional
+Maintainer: Martin Pecka <peckama2@fel.cvut.cz>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-dynamic-reconfigure, ros-noetic-kdl-parser, ros-noetic-robot-state-publisher, ros-noetic-roscpp, ros-noetic-rostest <!nocheck>, ros-noetic-sensor-msgs
+Homepage: http://www.ros.org/wiki/dynamic_robot_state_publisher
+Standards-Version: 3.9.2
+
+Package: ros-noetic-dynamic-robot-state-publisher
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-dynamic-reconfigure, ros-noetic-kdl-parser, ros-noetic-robot-state-publisher, ros-noetic-roscpp, ros-noetic-sensor-msgs
+Description: Improved ROS robot_state_publisher which can update the robot model via dynamic_reconfigure.
