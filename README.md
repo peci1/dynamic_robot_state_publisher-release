@@ -1,3 +1,26 @@
+## dynamic_robot_state_publisher (noetic) - 1.2.0-1
+
+The packages in the `dynamic_robot_state_publisher` repository were released into the `noetic` distro by running `/usr/bin/bloom-release -r noetic dynamic_robot_state_publisher` on `Tue, 03 May 2022 09:18:16 -0000`
+
+The `dynamic_robot_state_publisher` package was released.
+
+Version of package(s) in repository `dynamic_robot_state_publisher`:
+
+- upstream repository: https://github.com/peci1/dynamic_robot_state_publisher.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.2.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.1`
+- catkin_pkg version: `0.4.24`
+- rosdep version: `0.21.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## dynamic_robot_state_publisher (lunar) - 1.1.1-0
 
 The packages in the `dynamic_robot_state_publisher` repository were released into the `lunar` distro by running `/usr/local/bin/bloom-release --rosdistro lunar --track lunar dynamic_robot_state_publisher` on `Tue, 05 Mar 2019 22:38:16 -0000`
