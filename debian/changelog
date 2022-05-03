@@ -1,0 +1,16 @@
+ros-noetic-dynamic-robot-state-publisher (1.2.0-1buster) buster; urgency=high
+
+  * Added Noetic support (thanks @Kokjix).
+  * Contributors: Martin Pecka, Baran Berk Bağcı
+
+ -- Martin Pecka <peckama2@fel.cvut.cz>  Mon, 02 May 2022 22:00:00 -0000
+
+ros-noetic-dynamic-robot-state-publisher (1.1.1-1buster) buster; urgency=high
+
+  * Allowed deleting static TF frames that disappeared.
+  * Fixed deadlock.
+  * Contributors: Martin Pecka
+
+ -- Martin Pecka <peckama2@fel.cvut.cz>  Mon, 04 Mar 2019 23:00:00 -0000
+
+
